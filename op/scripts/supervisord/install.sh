@@ -17,25 +17,22 @@ set -o pipefail
 # 安装 pip
 yum -y install epel-release # 有 epel-release 才能装 python-pip
 
-if ! yum -y install supervisor
+yum -y install wget ca-certificates python-pip # wget 后面用到；ca-certificates 防止证书导致 wget 报错
+if ! which pip >/dev/null
 then
-  yum -y install wget ca-certificates python-pip # wget 后面用到；ca-certificates 防止证书导致 wget 报错
-  if ! which pip >/dev/null
-  then
-    exit 1
-  fi
-  
-  # 安装 supervisord
-  pip install supervisor
-  if ! which supervisorctl >/dev/null
-  then
-    exit 2
-  fi
-  
-  # 下载 init.d 脚本
-  wget https://raw.githubusercontent.com/Supervisor/initscripts/master/redhat-init-mingalevme -O /etc/init.d/supervisord
-  chmod 700 /etc/init.d/supervisord
+  exit 1
 fi
+
+# 安装 supervisord
+pip install supervisor
+if ! which supervisorctl >/dev/null
+then
+  exit 2
+fi
+
+# 下载 init.d 脚本
+wget https://raw.githubusercontent.com/Supervisor/initscripts/master/redhat-init-mingalevme -O /etc/init.d/supervisord
+chmod 700 /etc/init.d/supervisord
 
 # 下载配置文件
 wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/supervisord/supervisord.conf -O /etc/supervisord.conf
