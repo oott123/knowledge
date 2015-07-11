@@ -1,6 +1,6 @@
 #!/bin/bash
 #################################
-#   supervisord 一键安装脚本    #
+#      Install supervisord      #
 #                 By. oott123   #
 #        FOR CENTOS ONLY        #
 #     USE AT YOUR OWN RISK      #
