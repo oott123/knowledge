@@ -1,6 +1,5 @@
 # install supervisord and shadowsocks
 set -e
-set -o pipefail
 
 if ! which supervisorctl >/dev/null
 then
