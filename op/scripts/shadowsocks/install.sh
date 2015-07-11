@@ -13,8 +13,8 @@ then
 fi
 
 pip install shadowsocks
-wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/shadowsocks/shadowsocks.ini -O /etc/supervisord.d/shadowsocks.ini
-sed -i "s:#ssserver#:`which ssserver`:" /etc/supervisord.d/shadowsocks.ini
+wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/shadowsocks/shadowsocks.ini -O /etc/supervisor.d/shadowsocks.ini
+sed -i "s:#ssserver#:`which ssserver`:" /etc/supervisor.d/shadowsocks.ini
 wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/shadowsocks/shadowsocks.json -O /etc/shadowsocks.json
 
 $SSPORT=`shuf -i 2000-65000 -n 1`
