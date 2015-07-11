@@ -46,8 +46,4 @@ wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/super
 chmod 644 /etc/supervisord.d/program.ini
 
 # 设置启动项
-read -p "Start supervisord on startup using chkconfig ? [y/N]  " -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-  chkconfig supervisord on
-fi
+chkconfig supervisord on
