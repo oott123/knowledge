@@ -40,10 +40,10 @@ fi
 # 下载配置文件
 wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/supervisord/supervisord.conf -O /etc/supervisord.conf
 chmod 644 /etc/supervisord.conf
-mkdir /etc/supervisor.d
-chmod 755 /etc/supervisor.d
-wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/supervisord/program.ini -O /etc/supervisor.d/program.ini
-chmod 644 /etc/supervisor.d/program.ini
+mkdir /etc/supervisord.d
+chmod 755 /etc/supervisord.d
+wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/supervisord/program.ini -O /etc/supervisord.d/program.ini
+chmod 644 /etc/supervisord.d/program.ini
 
 # 设置启动项
 read -p "Start supervisord on startup using chkconfig ? [y/N]  " -r
