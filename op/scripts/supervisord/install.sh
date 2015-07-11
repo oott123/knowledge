@@ -6,6 +6,10 @@
 #     USE AT YOUR OWN RISK      #
 #################################
 
+# install via
+# wget https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/supervisord/install.sh -O - | bash
+# curl https://raw.githubusercontent.com/oott123/knowledge/master/op/scripts/supervisord/install.sh | bash
+
 # 发生错误后终止
 set -e
 set -o pipefail
