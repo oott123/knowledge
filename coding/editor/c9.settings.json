@@ -1,0 +1,190 @@
+{
+    "ace": {
+        "@animatedScroll": false,
+        "@antialiasedfonts": true,
+        "@behavioursEnabled": true,
+        "@cursorStyle": "ace",
+        "@displayIndentGuides": true,
+        "@fadeFoldWidgets": true,
+        "@fontFamily": "Monaco, Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace",
+        "@fontSize": 18,
+        "@highlightActiveLine": true,
+        "@highlightGutterLine": true,
+        "@highlightSelectedWord": true,
+        "@keyboardmode": "default",
+        "@mergeUndoDeltas": "off",
+        "@overwrite": false,
+        "@printMarginColumn": "80",
+        "@scrollPastEnd": "0.5",
+        "@scrollSpeed": "2",
+        "@selectionStyle": "line",
+        "@showFoldWidgets": true,
+        "@showGutter": true,
+        "@showInvisibles": false,
+        "@showPrintMargin": true,
+        "@theme": "ace/theme/tomorrow_night",
+        "@useWrapMode": true,
+        "@wrapBehavioursEnabled": true,
+        "@wrapToView": true,
+        "custom-types": {
+            "json()": {
+                "settings": "javascript"
+            }
+        },
+        "statusbar": {
+            "@show": true
+        }
+    },
+    "breakpoints": {
+        "@active": true
+    },
+    "build": {
+        "@autobuild": false
+    },
+    "clipboard": {
+        "@dontshow": true
+    },
+    "collab": {
+        "@show-author-info": true,
+        "@showbubbles": true,
+        "@timeslider-visible": false
+    },
+    "debug": {
+        "@autoshow": true,
+        "@pause": 0
+    },
+    "findinfiles": {
+        "@clear": true,
+        "@consolelaunch": false,
+        "@fullpath": false,
+        "@scrolldown": false
+    },
+    "format": {
+        "jsbeautify": {
+            "@advanced": {},
+            "@braces": "end-expand",
+            "@indent_inner_html": false,
+            "@jslinthappy": false,
+            "@keeparrayindentation": false,
+            "@preserveempty": true,
+            "@space_before_conditional": true,
+            "@unescape_strings": true
+        }
+    },
+    "general": {
+        "@animateui": true,
+        "@automerge": false,
+        "@autosave": true,
+        "@confirmexit": true,
+        "@confirmmerge": true,
+        "@preview-navigate": false,
+        "@preview-tree": false,
+        "@propose": true,
+        "@revealfile": false,
+        "@skin": "dark",
+        "@stripws": false,
+        "@treestyle": "default"
+    },
+    "jobs": {
+        "@load": 1443782662091
+    },
+    "key-bindings": {
+        "@platform": "auto",
+        "@preset": "default"
+    },
+    "language": {
+        "@continuousCompletion": true,
+        "@enterCompletion": true,
+        "@hints": true,
+        "@overrideMultiselectShortcuts": true
+    },
+    "metadata": {
+        "@enabled": true,
+        "@undolimit": "100"
+    },
+    "openfiles": {
+        "@hidetree": false,
+        "@show": false
+    },
+    "output": {
+        "@backgroundColor": "#003a58",
+        "@foregroundColor": "#FFFFFF",
+        "@keepOutput": false,
+        "@nosavequestion": false,
+        "@selectionColor": "#225477"
+    },
+    "preview": {
+        "@default": "preview.browser",
+        "@running_app": false
+    },
+    "projecttree": {
+        "@hiddenFilePattern": "*.pyc, __pycache__, .*",
+        "@scope": false,
+        "@showhidden": false
+    },
+    "runconfig": {
+        "@debug": true,
+        "@saveallbeforerun": true,
+        "@showruncfglist": false
+    },
+    "saucelabs": {
+        "preview": {
+            "json()": [
+                {
+                    "value": [
+                        "iexplore",
+                        "Windows 2012",
+                        "10"
+                    ],
+                    "caption": "IE 10 on Win8"
+                },
+                {
+                    "value": [
+                        "googlechrome",
+                        "Windows 2012",
+                        "31"
+                    ],
+                    "caption": "Chrome 31 on Win8"
+                },
+                {
+                    "value": [
+                        "firefox",
+                        "Windows 2012",
+                        "26"
+                    ],
+                    "caption": "FF 26 on Win8"
+                },
+                {
+                    "value": [
+                        "safari",
+                        "Mac 10.8",
+                        "6"
+                    ],
+                    "caption": "Safari 6 on 10.8"
+                }
+            ]
+        }
+    },
+    "tabs": {
+        "@asterisk": false,
+        "@show": true,
+        "@title": true
+    },
+    "terminal": {
+        "@antialiasedfonts": true,
+        "@backgroundColor": "#153649",
+        "@blinking": false,
+        "@defaultEnvEditor": false,
+        "@fontfamily": "Ubuntu Mono, Menlo, Consolas, monospace",
+        "@fontsize": 14,
+        "@foregroundColor": "#FFFFFF",
+        "@scrollback": "1000",
+        "@selectionColor": "#515D77",
+        "noclosequestion": {
+            "json()": true
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
