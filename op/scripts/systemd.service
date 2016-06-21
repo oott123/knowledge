@@ -1,0 +1,10 @@
+[Service]
+ExecStart=/usr/bin/yes
+User=oott123
+Restart=always
+RestartSec=5
+Environment=A=B
+Environment=C=D
+
+[Install]
+WantedBy=multi-user.target
