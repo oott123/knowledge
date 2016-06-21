@@ -1,5 +1,6 @@
 [Service]
 ExecStart=/usr/bin/yes
+WorkingDirectory=/home/oott123
 User=oott123
 Restart=always
 RestartSec=5
